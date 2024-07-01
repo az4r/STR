@@ -86,7 +86,7 @@ GR_OP1.grid(row = 0, column = 1, sticky="e")
 
 GR_SB1_VAR = StringVar(root)
 GR_SB1_VAR.set("1200")
-GR_SB1 = ttk.Spinbox(root, from_=0, to=100, increment=5, width=5, textvariable=GR_SB1_VAR)
+GR_SB1 = ttk.Spinbox(root, from_=0, to=5000, increment=1, width=5, textvariable=GR_SB1_VAR)
 GR_SB1.grid(row = 0, column = 2)
 
 ##########################################################################################################################
@@ -100,7 +100,7 @@ OG_OP1.grid(row = 1, column = 1, sticky="e")
 
 OG_SB1_VAR = StringVar(root)
 OG_SB1_VAR.set("60")
-OG_SB1 = ttk.Spinbox(root, from_=0, to=100, increment=5, width=5, textvariable=OG_SB1_VAR)
+OG_SB1 = ttk.Spinbox(root, from_=0, to=100, increment=1, width=5, textvariable=OG_SB1_VAR)
 OG_SB1.grid(row = 1, column = 2)
 
 ##########################################################################################################################
@@ -232,7 +232,7 @@ OD_OP1.grid(row = 11, column = 1, sticky="e")
 
 OD_SB1_VAR = StringVar(root)
 OD_SB1_VAR.set("60")
-OD_SB1 = ttk.Spinbox(root, from_=0, to=100, increment=5, width=5, textvariable=OD_SB1_VAR)
+OD_SB1 = ttk.Spinbox(root, from_=0, to=5000, increment=1, width=5, textvariable=OD_SB1_VAR)
 OD_SB1.grid(row = 11, column = 2)
 
 ##########################################################################################################################
@@ -243,7 +243,7 @@ ROZ_PR_POZ_OP1.grid(row = 12, column = 1, sticky="e")
 
 ROZ_PR_POZ_SB1_VAR = StringVar(root)
 ROZ_PR_POZ_SB1_VAR.set("125")
-ROZ_PR_POZ_SB1 = ttk.Spinbox(root, from_=0, to=100, increment=5, width=5, textvariable=ROZ_PR_POZ_SB1_VAR)
+ROZ_PR_POZ_SB1 = ttk.Spinbox(root, from_=0, to=1000, increment=1, width=5, textvariable=ROZ_PR_POZ_SB1_VAR)
 ROZ_PR_POZ_SB1.grid(row = 12, column = 2)
 
 ##########################################################################################################################
@@ -254,7 +254,7 @@ ROZ_PR_PIO_OP1.grid(row = 13, column = 1, sticky="e")
 
 ROZ_PR_PIO_SB1_VAR = StringVar(root)
 ROZ_PR_PIO_SB1_VAR.set("150")
-ROZ_PR_PIO_SB1 = ttk.Spinbox(root, from_=0, to=100, increment=5, width=5, textvariable=ROZ_PR_PIO_SB1_VAR)
+ROZ_PR_PIO_SB1 = ttk.Spinbox(root, from_=0, to=1000, increment=1, width=5, textvariable=ROZ_PR_PIO_SB1_VAR)
 ROZ_PR_PIO_SB1.grid(row = 13, column = 2)
 
 root.mainloop()
