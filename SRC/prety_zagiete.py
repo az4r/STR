@@ -82,179 +82,179 @@ ROZST_ABST.grid(row=33, columnspan=3, sticky="w")
 # GRUBOSC ELEMENTU:
 
 GR_OP1 = Label(root, justify="right", text = "Grubosc elementu [mm]:")
-GR_OP1.grid(row = 0, column = 1, sticky="e")
+GR_OP1.grid(row = 0, column = 0, sticky="e")
 
 GR_SB1_VAR = StringVar(root)
 GR_SB1_VAR.set("1200")
 GR_SB1 = ttk.Spinbox(root, from_=0, to=5000, increment=1, width=5, textvariable=GR_SB1_VAR)
-GR_SB1.grid(row = 0, column = 2)
+GR_SB1.grid(row = 0, column = 1)
 
 ##########################################################################################################################
 # OTULINA GORNA:
 
-OG_SCH = Label(root, text = "¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯")
-OG_SCH.grid(row = 1, column = 0)
-
 OG_OP1 = Label(root, justify="right", text = "Otulina [mm]:")
-OG_OP1.grid(row = 1, column = 1, sticky="e")
+OG_OP1.grid(row = 1, column = 0, sticky="e")
 
 OG_SB1_VAR = StringVar(root)
 OG_SB1_VAR.set("60")
 OG_SB1 = ttk.Spinbox(root, from_=0, to=100, increment=1, width=5, textvariable=OG_SB1_VAR)
-OG_SB1.grid(row = 1, column = 2)
+OG_SB1.grid(row = 1, column = 1)
+
+OG_SCH = Label(root, text = "¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯")
+OG_SCH.grid(row = 1, column = 2)
 
 ##########################################################################################################################
 # PRETY ZBROJENIOWE - 1. LAGA GORNA
 
-PR_1LG_SCH = Label(root, text = "█████████")
-PR_1LG_SCH.grid(row = 2, column = 0)
-
 PR_1LG_OP1 = Label(root, justify="right", text = "1.L [ø]:")
-PR_1LG_OP1.grid(row = 2, column = 1, sticky="e")
+PR_1LG_OP1.grid(row = 2, column = 0, sticky="e")
 
 PR_1LG_VAR = StringVar(root)
 PR_1LG_VAR.set("28")
 PR_1LG = ttk.Spinbox(root, from_=6, to=50, increment=1, width=5, textvariable=PR_1LG_VAR)
-PR_1LG.grid(row = 2, column = 2)
+PR_1LG.grid(row = 2, column = 1)
+
+PR_1LG_SCH = Label(root, text = "█████████")
+PR_1LG_SCH.grid(row = 2, column = 2)
 
 ##########################################################################################################################
 # PRETY ZBROJENIOWE - 2. LAGA GORNA
 
-PR_2LG_SCH = Label(root, text = "⬤  ⬤  ⬤  ⬤  ⬤  ⬤  ⬤")
-PR_2LG_SCH.grid(row = 3, column = 0)
-
 PR_2LG_OP1 = Label(root, justify="right", text = "2.L [ø]:")
-PR_2LG_OP1.grid(row = 3, column = 1, sticky="e")
+PR_2LG_OP1.grid(row = 3, column = 0, sticky="e")
 
 PR_2LG_VAR = StringVar(root)
 PR_2LG_VAR.set("28")
 PR_2LG = ttk.Spinbox(root, from_=6, to=50, increment=1, width=5, textvariable=PR_2LG_VAR)
-PR_2LG.grid(row = 3, column = 2)
+PR_2LG.grid(row = 3, column = 1)
+
+PR_2LG_SCH = Label(root, text = "⬤      ⬤      ⬤      ⬤")
+PR_2LG_SCH.grid(row = 3, column = 2)
 
 ##########################################################################################################################
 # PRETY ZBROJENIOWE - 3. LAGA GORNA
 
-PR_3LG_SCH = Label(root, text = "█████████")
-PR_3LG_SCH.grid(row = 4, column = 0)
-
 PR_3LG_OP1 = Label(root, justify="right", text = "3.L [ø]:")
-PR_3LG_OP1.grid(row = 4, column = 1, sticky="e")
+PR_3LG_OP1.grid(row = 4, column = 0, sticky="e")
 
 PR_3LG_VAR = StringVar(root)
 PR_3LG_VAR.set("28")
 PR_3LG = ttk.Spinbox(root, from_=6, to=50, increment=1, width=5, textvariable=PR_3LG_VAR)
-PR_3LG.grid(row = 4, column = 2)
+PR_3LG.grid(row = 4, column = 1)
+
+PR_3LG_SCH = Label(root, text = "█████████")
+PR_3LG_SCH.grid(row = 4, column = 2)
 
 ##########################################################################################################################
 # PRETY ZBROJENIOWE - 4. LAGA GORNA
 
-PR_4LG_SCH = Label(root, text = "⬤  ⬤  ⬤  ⬤  ⬤  ⬤  ⬤")
-PR_4LG_SCH.grid(row = 5, column = 0)
-
 PR_4LG_OP1 = Label(root, justify="right", text = "4.L [ø]:")
-PR_4LG_OP1.grid(row = 5, column = 1, sticky="e")
+PR_4LG_OP1.grid(row = 5, column = 0, sticky="e")
 
 PR_4LG_VAR = StringVar(root)
 PR_4LG_VAR.set("28")
 PR_4LG = ttk.Spinbox(root, from_=6, to=50, increment=1, width=5, textvariable=PR_4LG_VAR)
-PR_4LG.grid(row = 5, column = 2)
+PR_4LG.grid(row = 5, column = 1)
+
+PR_4LG_SCH = Label(root, text = "⬤      ⬤      ⬤      ⬤")
+PR_4LG_SCH.grid(row = 5, column = 2)
 
 ##########################################################################################################################
 # SRODEK PRZEKROJU
 
 SR_PRZ_OP1 = Label(root, justify="right", text = " ")
-SR_PRZ_OP1.grid(row = 6, column = 1, sticky="e")
+SR_PRZ_OP1.grid(row = 6, column = 0, sticky="e")
 
 ##########################################################################################################################
 # PRETY ZBROJENIOWE - 4. LAGA DOLNA
 
-PR_4LD_SCH = Label(root, text = "⬤  ⬤  ⬤  ⬤  ⬤  ⬤  ⬤")
-PR_4LD_SCH.grid(row = 7, column = 0)
-
 PR_4LD_OP1 = Label(root, justify="right", text = "4.L [ø]:")
-PR_4LD_OP1.grid(row = 7, column = 1, sticky="e")
+PR_4LD_OP1.grid(row = 7, column = 0, sticky="e")
 
 PR_4LD_VAR = StringVar(root)
 PR_4LD_VAR.set("28")
 PR_4LD = ttk.Spinbox(root, from_=6, to=50, increment=1, width=5, textvariable=PR_4LD_VAR)
-PR_4LD.grid(row = 7, column = 2)
+PR_4LD.grid(row = 7, column = 1)
+
+PR_4LD_SCH = Label(root, text = "⬤      ⬤      ⬤      ⬤")
+PR_4LD_SCH.grid(row = 7, column = 2)
 
 ##########################################################################################################################
 # PRETY ZBROJENIOWE - 3. LAGA DOLNA
 
-PR_3LD_SCH = Label(root, text = "█████████")
-PR_3LD_SCH.grid(row = 8, column = 0)
-
 PR_3LD_OP1 = Label(root, justify="right", text = "3.L [ø]:")
-PR_3LD_OP1.grid(row = 8, column = 1, sticky="e")
+PR_3LD_OP1.grid(row = 8, column = 0, sticky="e")
 
 PR_3LD_VAR = StringVar(root)
 PR_3LD_VAR.set("28")
 PR_3LD = ttk.Spinbox(root, from_=6, to=50, increment=1, width=5, textvariable=PR_3LD_VAR)
-PR_3LD.grid(row = 8, column = 2)
+PR_3LD.grid(row = 8, column = 1)
+
+PR_3LD_SCH = Label(root, text = "█████████")
+PR_3LD_SCH.grid(row = 8, column = 2)
 
 ##########################################################################################################################
 # PRETY ZBROJENIOWE - 2. LAGA DOLNA
 
-PR_2LD_SCH = Label(root, text = "⬤  ⬤  ⬤  ⬤  ⬤  ⬤  ⬤")
-PR_2LD_SCH.grid(row = 9, column = 0)
-
 PR_2LD_OP1 = Label(root, justify="right", text = "2.L [ø]:")
-PR_2LD_OP1.grid(row = 9, column = 1, sticky="e")
+PR_2LD_OP1.grid(row = 9, column = 0, sticky="e")
 
 PR_2LD_VAR = StringVar(root)
 PR_2LD_VAR.set("28")
 PR_2LD = ttk.Spinbox(root, from_=6, to=50, increment=1, width=5, textvariable=PR_2LD_VAR)
-PR_2LD.grid(row = 9, column = 2)
+PR_2LD.grid(row = 9, column = 1)
+
+PR_2LD_SCH = Label(root, text = "⬤      ⬤      ⬤      ⬤")
+PR_2LD_SCH.grid(row = 9, column = 2)
 
 ##########################################################################################################################
 # PRETY ZBROJENIOWE - 1. LAGA DOLNA
 
-PR_1LD_SCH = Label(root, text = "█████████")
-PR_1LD_SCH.grid(row = 10, column = 0)
-
 PR_1LD_OP1 = Label(root, justify="right", text = "1.L [ø]:")
-PR_1LD_OP1.grid(row = 10, column = 1, sticky="e")
+PR_1LD_OP1.grid(row = 10, column = 0, sticky="e")
 
 PR_1LD_VAR = StringVar(root)
 PR_1LD_VAR.set("28")
 PR_1LD = ttk.Spinbox(root, from_=6, to=50, increment=1, width=5, textvariable=PR_1LD_VAR)
-PR_1LD.grid(row = 10, column = 2)
+PR_1LD.grid(row = 10, column = 1)
+
+PR_1LD_SCH = Label(root, text = "█████████")
+PR_1LD_SCH.grid(row = 10, column = 2)
 
 ##########################################################################################################################
 # OTULINA DOLNA:
 
-OD_SCH = Label(root, text = "______________________")
-OD_SCH.grid(row = 11, column = 0)
-
 OD_OP1 = Label(root, justify="right", text = "Otulina [mm]:")
-OD_OP1.grid(row = 11, column = 1, sticky="e")
+OD_OP1.grid(row = 11, column = 0, sticky="e")
 
 OD_SB1_VAR = StringVar(root)
 OD_SB1_VAR.set("60")
 OD_SB1 = ttk.Spinbox(root, from_=0, to=5000, increment=1, width=5, textvariable=OD_SB1_VAR)
-OD_SB1.grid(row = 11, column = 2)
+OD_SB1.grid(row = 11, column = 1)
+
+OD_SCH = Label(root, text = "______________________")
+OD_SCH.grid(row = 11, column = 2)
 
 ##########################################################################################################################
 # POZIOMY ROZSTAW PRETOW:
 
 ROZ_PR_POZ_OP1 = Label(root, justify="right", text = "Poziomy rozstaw pretow [mm]:")
-ROZ_PR_POZ_OP1.grid(row = 12, column = 1, sticky="e")
+ROZ_PR_POZ_OP1.grid(row = 12, column = 0, sticky="e")
 
 ROZ_PR_POZ_SB1_VAR = StringVar(root)
 ROZ_PR_POZ_SB1_VAR.set("125")
 ROZ_PR_POZ_SB1 = ttk.Spinbox(root, from_=0, to=1000, increment=1, width=5, textvariable=ROZ_PR_POZ_SB1_VAR)
-ROZ_PR_POZ_SB1.grid(row = 12, column = 2)
+ROZ_PR_POZ_SB1.grid(row = 12, column = 1)
 
 ##########################################################################################################################
 # PIONOWY ROZSTAW PRETOW:
 
 ROZ_PR_PIO_OP1 = Label(root, justify="right", text = "Pionowy rozstaw pretow [mm]:")
-ROZ_PR_PIO_OP1.grid(row = 13, column = 1, sticky="e")
+ROZ_PR_PIO_OP1.grid(row = 13, column = 0, sticky="e")
 
 ROZ_PR_PIO_SB1_VAR = StringVar(root)
 ROZ_PR_PIO_SB1_VAR.set("150")
 ROZ_PR_PIO_SB1 = ttk.Spinbox(root, from_=0, to=1000, increment=1, width=5, textvariable=ROZ_PR_PIO_SB1_VAR)
-ROZ_PR_PIO_SB1.grid(row = 13, column = 2)
+ROZ_PR_PIO_SB1.grid(row = 13, column = 1)
 
 root.mainloop()
